@@ -1,0 +1,57 @@
+.weather-block-wrapper {
+  text-align: center;
+}
+
+.weather-block {
+  display: inline-block;
+  border: 3px solid green;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.weather-container {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#city {
+  position: relative;
+  right: 16px;
+}
+
+.city-name select {
+  color: green;
+  font-size: 20px;
+}
+
+
+.weather-temperature {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.weather-clouds {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.weather-features li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.btn {
+  margin: 20px 0;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(6, 189, 82);
+}
